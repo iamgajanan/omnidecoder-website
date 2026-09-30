@@ -1,0 +1,6 @@
+export const site={name:'OmniDecoder',tagline:'Building intelligent software for the way businesses work.',description:'OmniDecoder builds modern automation, AI, and productivity products that simplify complex workflows.',email:process.env.SUPPORT_EMAIL||'support@your-domain.example',domain:process.env.DOMAIN||'your-domain.example'}
+export const products=[
+{id:'omnisocial',name:'OmniSocial',category:'Social Media Automation',description:'Create, schedule and publish content across multiple social platforms from one workspace.',href:'/products/omnisocial',icon:'◈',features:['Multi-platform publishing','Scheduling','Publishing users','Connected social accounts','Media library','Automated workflows']},
+{id:'appointly',name:'Appointly',category:'Appointment Automation',description:'Automate appointment scheduling, availability and customer communication.',href:'/products/appointly',icon:'◌',features:['Appointment booking','Calendar automation','Notifications','Scheduling workflows','Customer management']},
+{id:'ai-testing-framework',name:'AI Testing Framework',category:'AI Developer Tools',description:'Use AI-assisted workflows to improve software testing and application quality.',href:'/products/ai-testing-framework',icon:'⌁',features:['AI-assisted testing','Automated workflows','Test generation','Developer tooling']}
+]
